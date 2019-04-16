@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
   <head>
     <meta charset="UTF-8">
     <title>Tailwind CSS Demo</title>
     <link rel="stylesheet" href="tailwind.min.css">
   </head>
-  <body>
-    <h1>Hi! I’m Oliver.</h1>
+  <body class="h-full font-sans antialiased text-gray-800 bg-gray-100 flex flex-col justify-center">
+    <section class="md:rounded max-w-3xl flex-no-shrink mx-auto bg-white p-8 shadow leading-relaxed">
+      <h1 class="text-black text-4xl font-bold">Hi! I’m Oliver.</h1>
 
-    <p>I’m Oliver Davies (aka <a href="https://www.google.com/#q=opdavies">opdavies</a>) - a Full Stack Web Developer and System Administrator based in Wales, UK.</p>
+      <p class="mt-4">I’m Oliver Davies (aka <a class="text-black underline hover:no-underline" href="https://www.google.com/#q=opdavies">opdavies</a>) - a Full Stack Web Developer and System Administrator based in Wales, UK.</p>
 
-    <p>I’m a Senior Developer at <a href="https://microserve.io/?utm_source=oliverdavies.uk&amp;utm_medium=about-bio">Microserve</a>, part-time freelancer, former Developer at the <a href="https://www.drupal.org/association">Drupal Association</a>, open source contributor and advocate, mentor and conference speaker.</p>
+      <p class="mt-4">I’m a Senior Developer at <a class="text-black underline hover:no-underline" href="https://microserve.io/?utm_source=oliverdavies.uk&amp;utm_medium=about-bio">Microserve</a>, part-time freelancer, former Developer at the <a href="https://www.drupal.org/association">Drupal Association</a>, open source contributor and advocate, mentor and conference speaker.</p>
+    </section>
   </body>
 </html>
