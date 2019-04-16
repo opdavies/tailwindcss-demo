@@ -9,4 +9,13 @@
   @apply no-underline;
 }
 
+a.btn {
+  transition: background .1s;
+  @apply text-sm text-white no-underline font-bold rounded-full;
+  @apply inline-block px-5 py-2 bg-blue-600;
+}
+a.btn:hover {
+  @apply bg-blue-700;
+}
+
 @tailwind utilities;
