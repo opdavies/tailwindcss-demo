@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
+
+.markup a {
+  @apply text-black underline;
+}
+.markup a:hover,
+.markup a:focus {
+  @apply no-underline;
+}
+
 @tailwind utilities;
